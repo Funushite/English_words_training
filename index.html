@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>英単語</title>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+  <h1 class="text" id="class">名詞</h1>
+
+  <div class="container">
+
+    <!-- 左コンテンツ -->
+    <div class="left-content">
+      左メニュー
+    </div>
+    <!-- メインコンテンツ -->
+    <div class="main-content">
+      <div class="setting">
+        <form id="rangebox">
+          <input type="radio" name="mode" id="fullyRandom" checked>
+          <label for="fullyRandom">完全ランダム</label>
+          <input type="radio" name="mode" id="oneRandom">
+          <label for="oneRandom">ランダムに一周</label>
+          <!-- ここに　完全ランダム（連続の重複除く） or ランダム（各単語1回） -->
+          <input class="text" id="range_min" value="" placeholder="Range" autocomplete="off" spellcheck="false">
+          <a id="delta">〜</a>
+          <input class="text" id="range_max" value="" placeholder="Range" autocomplete="off" spellcheck="false">
+          <input type="button" id="changeRange" value="changeRange">
+        
+        </form>
+      </div>
+
+      <div class="content">
+        <div id="head1">
+          <h1 class="text" id="question"></h1>
+          <h2 class="text" id="supplement"></h2>
+        </div>
+
+        <form id="answer" name="param" action="#">
+          <p id="sentence"></p>
+          <div id="answerBox">
+            <input type="text" id="YourAnswer" value="" placeholder="Input Your Answer" autocomplete="off"
+              
+              >  <input type="button" id="changeWord" value="change" size="8">
+          </div>
+          <p id="output"></p>
+        </form>
+
+      </div>
+    </div>
+
+    <!-- 右コンテンツ -->
+    <div class="right-content">
+      右メニュー
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+  <script src="norm.js"></script>
+</body>

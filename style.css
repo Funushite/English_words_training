@@ -1,0 +1,145 @@
+
+/*body{
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+*/
+
+body {
+  background-image: url("unnamed.jpg");
+  background-size: cover;
+}
+
+.text,
+form,
+input
+{
+  text-align: center;
+}
+
+/* ------コンテンツ------ */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting {
+  position: absolute;
+  top: -450px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 45%;
+  height: 50px;
+  background: rgba(105, 105, 105, 0.878);
+  border: 5px solid #c5c6b1;
+  border-radius: 2%;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 45%;
+  height: 300px;
+  background: rgba(84, 172, 235, 0.7);
+  border: 10px solid #c5c6b1;
+  border-radius: 10%;
+}
+
+.left-content,
+.right-content
+{ 
+  width: 20%;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+
+/*--------------------*/
+
+#class{
+  font-size: 54px;
+  -webkit-text-stroke: 1px white;
+}
+
+#answer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -100px;
+  left: 0;
+  margin: auto;
+  width: 550px;
+  height: 100px;
+}
+
+#answerBox{
+  margin:auto;
+  margin-left: 10%;
+}
+
+#YourAnswer{
+  width: 400px;
+  height: 30px;
+  font-family: "ArialRoundedMTBold", レギュラー;
+  font-size: 20px
+}
+
+#question
+{
+  margin-top: -40px;
+}
+
+#supplement{
+  margin-top: -20px;
+}
+
+#head1{
+  margin-top: 70px;
+  text-align:right;
+}
+
+#changeWord{
+  height: 30px;
+  font-family: "ArialRoundedMTBold", レギュラー;
+  font-size: 15px 
+}
+
+#rangebox{
+  /* margin-right: -0%; */
+  margin-top: 12px;
+}
+
+#range_min{
+  width: 50px;
+  height: 20px;
+  font-family: "ArialRoundedMTBold", レギュラー;
+  font-size: 15px
+}
+#delta{
+  font: bold;
+  color: aliceblue;
+}
+#range_max{
+  /* margin-right: -60%; */
+  width: 50px;
+  height: 20px;
+  font-family: "ArialRoundedMTBold", レギュラー;
+  font-size: 15px
+}
+#changeRange{
+  margin-left: 1%;
+  height: auto;
+  font-family: "ArialRoundedMTBold", レギュラー;
+  font-size: 15px
+}
+
